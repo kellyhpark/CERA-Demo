@@ -2,4 +2,4 @@ streamlit==1.31.1
 nltk==3.5
 streamlit_image_select
 bs4
-sklearn
+scikit-learn
