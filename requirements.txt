@@ -1,6 +1,5 @@
-streamlit
-nltk
-pickle
+streamlit==1.31.1
+nltk==3.5
 streamlit_image_select
 re
 bs4
