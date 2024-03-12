@@ -1,0 +1,6 @@
+streamlit
+nltk
+pickle
+streamlit_image_select
+re
+bs4

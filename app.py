@@ -23,24 +23,24 @@ st.subheader('DETR Structure Detection', divider='grey')
 img = image_select(
     label="Select an example image for analysis",
     images=[
-        "data/validation/IMG_6859.jpg",
-        "data/validation/IMG_6864.jpg",
-        "data/validation/IMG_6875.jpg",
-        "data/validation/IMG_6892.jpg",
+        "models/detr/raw/IMG_6859.jpg",
+        "models/detr/raw/IMG_6864.jpg",
+        "models/detr/raw/IMG_6875.jpg",
+        "models/detr/raw/IMG_6892.jpg",
     ])
 # Given the chosen image, display the labelled results
 st.write("Image validation results:")
 if img == "data/validation/IMG_6859.jpg":
-    st.image("models/detr_results/valid02.png")
+    st.image("models/detr/results/valid1.png")
     st.write("**An electric pole has been identified with 58% confidence.**")
 elif img == "data/validation/IMG_6864.jpg":
-    st.image("models/detr_results/valid012.png")
+    st.image("models/detr/results/valid2.png")
     st.write("**An electric pole has been identified with 73% confidence.**")
 elif img == "data/validation/IMG_6875.jpg":
-    st.image("models/detr_results/valid0122.png")
+    st.image("models/detr/results/valid3.png")
     st.write("**An electric pole has been identified with 68% confidence.**")
 else:
-    st.image("models/detr_results/valid0123.png")
+    st.image("models/detr/results/valid4.png")
     st.write("**An electric pole has been identified with 97% confidence.**")
 
 
