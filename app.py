@@ -31,13 +31,13 @@ img = image_select(
     ])
 # Given the chosen image, display the labelled results
 st.write("Image validation results:")
-if img == "data/validation/IMG_6859.jpg":
+if img == "models/detr/raw/IMG_6859.jpg":
     st.image("models/detr/results/valid1.png")
     st.write("**An electric pole has been identified with 58% confidence.**")
-elif img == "data/validation/IMG_6864.jpg":
+elif img == "models/detr/raw/IMG_6864.jpg":
     st.image("models/detr/results/valid2.png")
     st.write("**An electric pole has been identified with 73% confidence.**")
-elif img == "data/validation/IMG_6875.jpg":
+elif img == "models/detr/raw/IMG_6875.jpg":
     st.image("models/detr/results/valid3.png")
     st.write("**An electric pole has been identified with 68% confidence.**")
 else:
