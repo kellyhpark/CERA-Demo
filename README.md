@@ -1,6 +1,6 @@
 # CERA-Demo
 
-This repository contains script for a working demo of the models found in the [Pole-Validation](https://github.com/kellyhpark/Pole-Validation) repository. By running the app.py file, a streamlit application of the demo will become accessible. This demonstration site has been created to display the rudimentary capabilities of the DETR Object Detection Model, and the two NLP models involved in the conception of the CERA platform.
+This repository contains script for a working demo of the models found in the [Pole-Validation](https://github.com/kellyhpark/Pole-Validation) repository. By running the app.py file, a streamlit application of the demo will become accessible. This demonstration site has been created to display the rudimentary capabilities of the DETR Object Detection Model, and the two NLP models (SVM Topic Classification and VADER Sentiment Analysis) incorporated in the conception of the CERA platform.
 
 ## Setup
 
