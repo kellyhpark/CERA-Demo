@@ -5,7 +5,7 @@ This repository contains script for a working demo of the models found in the [P
 ## Setup
 
 ### Conda Environment
-After cloning the repo, navigate to root folder and run:
+After cloning the repo, create a virtual environment and navigate to the root folder and run:
 ```
 pip install -r requirements.txt
 ```
